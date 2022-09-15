@@ -1,4 +1,4 @@
-# Init
+## Init
 
 ```
 yarn init -y
@@ -8,16 +8,20 @@ yarn init -y
 yarn add vsce -D
 ```
 
-# Create
+## Create
 
-edit package.json
+- Edit package.json
 
-create theme:
+- Create theme:
 
 https://themes.vscode.one/
 
-save theme in the same path informed at package.json
+- Save theme in the same path informed at package.json with the same name
 
-# Publish
+```
+yarn package
+```
+
+## Publish
 
 https://marketplace.visualstudio.com/
