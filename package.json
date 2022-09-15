@@ -1,0 +1,30 @@
+{
+  "name": "tamis-theme",
+  "description": "Soft Dark Theme",
+  "displayName": "Tamis Dark",
+  "version": "0.0.0",
+  "icon": "assets/tamis.jpeg",
+  "keywords": ["tamis", "biritami"],
+  "publisher": "TamiresLucena",
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Tamis Dark",
+        "uiTheme": "vs-dark",
+        "path": "./tamis-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package --no-yarn",
+    "publish": "vsce publish --no-yarn"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vsce": "^2.11.0"
+  }
+}
